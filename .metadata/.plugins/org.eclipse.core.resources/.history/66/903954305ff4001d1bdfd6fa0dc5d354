@@ -1,0 +1,26 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+	pageEncoding="UTF-8"%>
+<% 
+	String ssel = request.getParameter("sel");
+    String sval = request.getParameter("val");
+    
+%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<%
+	if(ssel.equals("gugudanType1")){
+		response.sendRedirect("gugudan1.jsp?dan="+ sval);
+	} else{
+		response.sendRedirect("gugudan2.jsp?dan=" + sval);
+		
+	}
+	
+%>
+
+</body>
+</html>
