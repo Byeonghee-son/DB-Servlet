@@ -73,3 +73,11 @@
 0:0:0:0:0:0:0:1 - - [18/May/2023:15:25:40 +0900] "GET /MustHaveJSP/04Cookie/PopupMain.jsp HTTP/1.1" 200 1735
 0:0:0:0:0:0:0:1 - - [18/May/2023:15:25:42 +0900] "GET /MustHaveJSP/04Cookie/PopupCookie.jsp?inactiveToday=1 HTTP/1.1" 200 163
 0:0:0:0:0:0:0:1 - - [18/May/2023:15:25:42 +0900] "GET /MustHaveJSP/04Cookie/PopupMain.jsp HTTP/1.1" 200 1442
+127.0.0.1 - - [18/May/2023:15:57:20 +0900] "GET / HTTP/1.1" 404 807
+0:0:0:0:0:0:0:1 - - [18/May/2023:15:57:21 +0900] "GET /MustHaveJSP/04Cookie/IdSaveMain.jsp HTTP/1.1" 200 512
+0:0:0:0:0:0:0:1 - - [18/May/2023:15:57:26 +0900] "POST /MustHaveJSP/04Cookie/IdSaveProcess.jsp HTTP/1.1" 200 234
+0:0:0:0:0:0:0:1 - - [18/May/2023:15:57:27 +0900] "GET /MustHaveJSP/04Cookie/IdSaveMain.jsp HTTP/1.1" 200 512
+0:0:0:0:0:0:0:1 - - [18/May/2023:15:57:34 +0900] "POST /MustHaveJSP/04Cookie/IdSaveProcess.jsp HTTP/1.1" 200 234
+0:0:0:0:0:0:0:1 - - [18/May/2023:15:57:35 +0900] "GET /MustHaveJSP/04Cookie/IdSaveMain.jsp HTTP/1.1" 200 523
+0:0:0:0:0:0:0:1 - - [18/May/2023:15:57:40 +0900] "POST /MustHaveJSP/04Cookie/IdSaveProcess.jsp HTTP/1.1" 200 218
+0:0:0:0:0:0:0:1 - - [18/May/2023:15:57:43 +0900] "POST /MustHaveJSP/04Cookie/IdSaveProcess.jsp HTTP/1.1" 200 218
