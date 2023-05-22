@@ -1,0 +1,19 @@
+package membership;
+
+import java.util.ArrayList;
+
+public class MemberDAOTest {
+
+	private static MemberDAO memberDAO = new MemberDAO();
+	
+	public static void main(String[] args) {
+	//MemberDTO memberDTO = memberDAO.getMemberDTO("test1", "1111");
+		//System.out.println(memberDTO);
+		
+		//Test getAllMemberDTO()
+		ArrayList<MemberDTO> list = memberDAO.getAllMemberDTO();
+		for(MemberDTO m : list) {
+			System.out.println(m);
+		}
+	}
+}

@@ -1,0 +1,5 @@
+package membership.copy;
+
+public class MemberDTO {
+
+}

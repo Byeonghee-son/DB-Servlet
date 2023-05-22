@@ -1,0 +1,14 @@
+package common;
+
+import membership.MemberDAO;
+
+public class MemberDAOTest {
+	private MemberDAO memberDAO;
+	public static void main(String[] args) {
+		
+		MemberDAO memberDAO = new MemberDAO();
+		
+		MemberDTO memberDTO = memberDAO.getMemberDTO("test1", null);
+		System.out.println(memberDTO);
+	}
+}
