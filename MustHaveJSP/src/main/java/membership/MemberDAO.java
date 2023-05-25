@@ -8,9 +8,9 @@ import java.sql.Statement;
 import java.util.ArrayList;
 
 
-import common.JDBCConnect_new;
+import common.JDBConnect;
 
-public class MemberDAO extends JDBCConnect_new {
+public class MemberDAO extends JDBConnect {
 	public MemberDAO(String drv, String url, String id, String pw) {
 		super(drv, url, id, pw);
 	}
@@ -176,6 +176,14 @@ public class MemberDAO extends JDBCConnect_new {
 			}
 		}
 		return 0;
+	}
+	
+	public void close(Connection con) {
+		try{
+			if(con != null) con.close();
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
 	}
 	
 }

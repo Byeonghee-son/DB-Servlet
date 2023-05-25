@@ -71,7 +71,7 @@ public class JDBConnect {
     }
 
     // 연결 해제(자원 반납)
-    public void close(){ 
+    public void close(Connection con){ 
         try {            
             if (rs != null) rs.close(); 
             if (stmt != null) stmt.close();
