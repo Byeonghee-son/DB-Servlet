@@ -56,6 +56,11 @@ public class MemberDAO extends JDBConnect {
 		return dto;
 	}
 
+	private Connection getConnection() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
 	public ArrayList<MemberDTO> getAllMemberDTO() {
 		Connection con = getConnection();
 		if (con == null)
